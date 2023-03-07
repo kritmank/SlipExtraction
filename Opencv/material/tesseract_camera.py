@@ -70,15 +70,15 @@ if is_slip:
 
     if len(text_TH) == 0 and len(text_EN) == 0:
         print("*** No text detected ***")
-        # text = "No text detected"
+        text = "No text detected"
 
     elif len(text_TH) == 0:
         box = pytesseract.image_to_boxes(slip_img, lang='eng')
-        # text = text_EN
+        text = text_EN
     
     elif len(text_EN) == 0:
         box = pytesseract.image_to_boxes(slip_img, lang='tha')
-        # text = text_TH
+        text = text_TH
 
     print("----- Text Are -----")
     print("THAI\n",text_TH)
