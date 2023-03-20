@@ -1,2 +1,9 @@
-# SlipExtraction Using Tesseract
-This project is Slip Extraction using Tesseract. Created for Final Project For Programming4.
+# Slip Extraction
+Slip data extraction from the slip image received from the client camera.
+  
+## Process:
+1. Capture slip image from the client camera.
+2. Extraction of the slip data from the slip image.
+3. Show the extracted slip data to the client.
+4. Save the slip data in the csv file.
+
